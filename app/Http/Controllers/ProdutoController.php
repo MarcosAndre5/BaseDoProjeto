@@ -8,7 +8,7 @@ use Request;
 class ProdutoController extends Controller{
     public function lista(){
         $produtos = DB::select('SELECT * FROM produtos');
-        return view('listagem')->with('produtos', $produtos);
+        return view('produto.listagem')->with('produtos', $produtos);
     }
 
     public function mostra($id){
@@ -16,6 +16,6 @@ class ProdutoController extends Controller{
         if(empty($produto)){
             return "Esse produto não existe.";
         }
-        return view('detalhes')->with('produto', $produto);
+        return view('produto.detalhes')->with('produto', $produto);
     }
 }

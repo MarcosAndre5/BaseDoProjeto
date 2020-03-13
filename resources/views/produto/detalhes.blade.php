@@ -1,4 +1,4 @@
-@extends('principal')
+@extends('layout.principal')
 @section('conteudo')
 @foreach($produto as $p)
     <h1>Detalhes do Produto:  {{$p->nome}} </h1>
@@ -14,7 +14,4 @@
         </li>
     </ul>
 @endforeach
-<a href="/estoque/public">
-    Voltar
-</a>
 @stop
