@@ -8,14 +8,16 @@
         </div>
     @else
         @foreach($produtos as $p)
-            <tr class="{{$p->quantidade <= 1 ? 'danger' : ''}}">
+            <tr class="{{ $p->quantidade <= 1 ? 'danger' : '' }}">
                 <td><b>Nome:</b> {{$p->nome}}</td>
                 <td>R$ {{$p->valor}}</td>
                 <td>{{$p->descricao}}</td>
                 <td>Qtd. {{$p->quantidade}}</td>
                 <td>
                     <a href="produtos/mostra/{{$p->id}}">
-                        <span class="glyphicon glyphicon-search"></span>
+                        <button class="btn btn-primary">
+                            <span class="glyphicon glyphicon-search"></span> Visualizar
+                        </button>
                     </a>
                 </td>
             </tr>
