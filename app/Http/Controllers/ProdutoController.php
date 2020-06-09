@@ -26,6 +26,12 @@ class ProdutoController extends Controller{
     public function cadastrarProduto(Request $request){
         $produto = $request->all();
         DB::insert('INSERT INTO produtos (nome, descricao, valor, quantidade) VALUES (?, ?, ?, ?)', array($produto['nome'], $produto['descricao'], $produto['valor'], $produto['quantidade']));
-        return view('produto.adicionado')->with('nome', $produto['nome']);
+        $produtos = DB::select('SELECT * FROM produtos');
+        return redirect('/')->withInput(Request::only('nome'));
+    }
+
+    public function listaJson(){
+        $produtos = DB::select('SELECT * FROM produtos');
+        return response()->json($produtos);
     }
 }
