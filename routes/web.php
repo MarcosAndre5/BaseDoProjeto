@@ -11,3 +11,5 @@ Route::get('/produtos/mostra/{id}', 'ProdutoController@visualizarProduto')->wher
 Route::get('/produtos/novo', 'ProdutoController@novoProduto');
 
 Route::post('/produtos/cadastrar', 'ProdutoController@cadastrarProduto');
+
+Route::get('/produtos/json', 'ProdutoController@listaJson');
