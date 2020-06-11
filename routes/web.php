@@ -12,4 +12,6 @@ Route::get('/produtos/novo', 'ProdutoController@novoProduto');
 
 Route::post('/produtos/cadastrar', 'ProdutoController@cadastrarProduto');
 
+Route::get('/produtos/remover/{id}', 'ProdutoController@removerProduto');
+
 Route::get('/produtos/json', 'ProdutoController@listaJson');

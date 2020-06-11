@@ -3,16 +3,17 @@
 namespace estoque\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
-use Illuminate\Http\Request;
+use Request;
+use estoque\Produto;
 
 class ProdutoController extends Controller{
     public function listarProdutos(){
-        $produtos = DB::select('SELECT * FROM produtos');
+        $produtos = Produto::all();
         return view('produto.listagem')->with('produtos', $produtos);
     }
 
     public function visualizarProduto($id){
-        $produto = DB::select('SELECT * FROM produtos WHERE id = ?', [$id]);
+        $produto = Produto::find([$id]);
         if(empty($produto)){
             return "Esse produto não existe.";
         }
@@ -24,14 +25,21 @@ class ProdutoController extends Controller{
     }
 
     public function cadastrarProduto(Request $request){
-        $produto = $request->all();
-        DB::insert('INSERT INTO produtos (nome, descricao, valor, quantidade) VALUES (?, ?, ?, ?)', array($produto['nome'], $produto['descricao'], $produto['valor'], $produto['quantidade']));
-        $produtos = DB::select('SELECT * FROM produtos');
-        return redirect('/')->withInput(Request::only('nome'));
+        Produto::create(Request::all());
+
+        return redirect()
+            ->action('ProdutoController@listarProdutos')
+            ->withInput(Request::only('nome'));
+    }
+
+    public function removerProduto($id){
+        $produto = Produto::find($id);
+        $produto->delete();
+        return redirect()->action('ProdutoController@listarProdutos');
     }
 
     public function listaJson(){
-        $produtos = DB::select('SELECT * FROM produtos');
+        $produtos = Produto::all();
         return response()->json($produtos);
     }
 }
