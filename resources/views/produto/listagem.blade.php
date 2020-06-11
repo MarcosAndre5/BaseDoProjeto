@@ -14,10 +14,15 @@
                 <td>{{$p->descricao}}</td>
                 <td>Qtd. {{$p->quantidade}}</td>
                 <td>
-                    <a href="produtos/mostra/{{$p->id}}">
+                    <a href="{{ action('ProdutoController@visualizarProduto', $p->id) }}">
                         <button class="btn btn-primary">
                             <span class="glyphicon glyphicon-search"></span> Visualizar
                         </button>
+                    </a>
+                </td>
+                <td>
+                    <a href="{{ action('ProdutoController@removerProduto', $p->id) }}">
+                        <span class="glyphicon glyphicon-trash"></span>
                     </a>
                 </td>
             </tr>
