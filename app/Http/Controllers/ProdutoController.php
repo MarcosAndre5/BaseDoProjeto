@@ -4,6 +4,7 @@ namespace estoque\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
 use Request;
+use Validator;
 use estoque\Produto;
 
 class ProdutoController extends Controller{
@@ -25,6 +26,16 @@ class ProdutoController extends Controller{
     }
 
     public function cadastrarProduto(Request $request){
+
+        $validator = Validator::make(
+            ['nome' => Request::input('nome')],
+            ['nome' => 'required | min:5']
+        );
+
+        if($validator->fails()){
+            return redirect()->action('ProdutoController@novoProduto');
+        }
+
         Produto::create(Request::all());
 
         return redirect()
