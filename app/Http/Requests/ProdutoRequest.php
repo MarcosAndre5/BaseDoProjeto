@@ -20,12 +20,18 @@ class ProdutoRequest extends FormRequest
      *
      * @return array
      */
-    public function rules()
-    {
+    public function rules(){
         return [
             'nome' => 'required | max:100',
             'descricao' => 'required | max:225',
             'valor' => 'required | numeric'
+        ];
+    }
+
+    public function messages(){
+        return [
+            'required' => 'O campo :attribute não pode ser vazio.',
+            'descricao.required' => 'O campo descrição não pode ser vazio',
         ];
     }
 }
