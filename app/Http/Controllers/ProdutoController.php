@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\DB;
 use Request;
 use Validator;
 use estoque\Produto;
+use estoque\Http\Requests\ProdutoRequest;
 
 class ProdutoController extends Controller{
     public function listarProdutos(){
@@ -25,19 +26,8 @@ class ProdutoController extends Controller{
         return view('produto.formulario');
     }
 
-    public function cadastrarProduto(Request $request){
-
-        $validator = Validator::make(
-            ['nome' => Request::input('nome')],
-            ['nome' => 'required | min:5']
-        );
-
-        if($validator->fails()){
-            return redirect()->action('ProdutoController@novoProduto');
-        }
-
-        Produto::create(Request::all());
-
+    public function cadastrarProduto(ProdutoRequest $request){
+        Produto::create($request->all());
         return redirect()
             ->action('ProdutoController@listarProdutos')
             ->withInput(Request::only('nome'));
