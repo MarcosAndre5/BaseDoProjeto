@@ -15,6 +15,7 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
+        //\estoque\Http\Middleware\AutorizacaoMiddleware::class,
     ];
 
     /**
@@ -52,5 +53,6 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \estoque\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'nossoMiddleware' => \estoque\Http\Middleware\AutorizacaoMiddleware::class,
     ];
 }
