@@ -9,6 +9,10 @@ use estoque\Produto;
 use estoque\Http\Requests\ProdutoRequest;
 
 class ProdutoController extends Controller{
+    public function __construct(){
+        $this->middleware('auth', ['only' => ['cadastrarProduto','removerProduto']]);
+    }
+
     public function listarProdutos(){
         $produtos = Produto::all();
         return view('produto.listagem')->with('produtos', $produtos);
