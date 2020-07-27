@@ -11,7 +11,7 @@
 
 O Laravel é uma estrutura de aplicativos da web com sintaxe expressiva e elegante. Acreditamos que o desenvolvimento deve ser uma experiência criativa, agradável e realmente gratificante. O Laravel tenta aliviar a dor do desenvolvimento, facilitando tarefas comuns usadas na maioria dos projetos da web, como:
 
-- [Mecanismo de roteamento simmples e rápido](https://laravel.com/docs/routing).
+- [Mecanismo de roteamento simples e rápido](https://laravel.com/docs/routing).
 - [Recipiente de injeção de dependência poderoso](https://laravel.com/docs/container).
 - Vários back-ends para armazenamento de [sessão](https://laravel.com/docs/session) e [cache](https://laravel.com/docs/cache).
 - [Banco de Dados ORM](https://laravel.com/docs/eloquent) expressivo e intuitivo.
