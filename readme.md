@@ -14,8 +14,8 @@ O Laravel é uma estrutura de aplicativos da web com sintaxe expressiva e elegan
 - [Mecanismo de roteamento simmples e rápido](https://laravel.com/docs/routing).
 - [Recipiente de injeção de dependência poderoso](https://laravel.com/docs/container).
 - Vários back-ends para armazenamento de [sessão](https://laravel.com/docs/session) e [cache](https://laravel.com/docs/cache).
-- [Banco de Dados ORM] expressivo e intuitivo(https://laravel.com/docs/eloquent).
-- [Migração de esquema] independente de Banco de Dados(https://laravel.com/docs/migrations).
+- [Banco de Dados ORM](https://laravel.com/docs/eloquent) expressivo e intuitivo.
+- [Migração de esquema](https://laravel.com/docs/migrations) independente de Banco de Dados.
 - [Processamento de trabalho em segundo plano robusto](https://laravel.com/docs/queues).
 - [Transmissão de eventos em tempo real](https://laravel.com/docs/broadcasting).
 
