@@ -9,7 +9,7 @@
 
 ## Sobre o Laravel
 
-O Laravel é uma estrutura de aplicativos da web com sintaxe expressiva e elegante. Acreditamos que o desenvolvimento deve ser uma experiência criativa e agradável para ser realmente gratificante. O Laravel tenta aliviar a dor do desenvolvimento, facilitando tarefas comuns usadas na maioria dos projetos da web, como:
+O Laravel é uma estrutura de aplicativos da web com sintaxe expressiva e elegante. Acreditamos que o desenvolvimento deve ser uma experiência criativa, agradável e realmente gratificante. O Laravel tenta aliviar a dor do desenvolvimento, facilitando tarefas comuns usadas na maioria dos projetos da web, como:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
@@ -19,7 +19,7 @@ O Laravel é uma estrutura de aplicativos da web com sintaxe expressiva e elegan
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-O Laravel é acessível, mas poderoso, fornecendo as ferramentas necessárias para aplicativos grandes e robustos. Uma excelente combinação de simplicidade, elegância e inovação fornece as ferramentas necessárias para criar qualquer aplicativo com o qual você é encarregado.
+O Laravel é acessível, mas poderoso, fornecendo as ferramentas necessárias para aplicativos grandes e robustos. Uma excelente combinação de simplicidade, elegância e inovação fornecendo as ferramentas necessárias para criar qualquer aplicativo com o qual você é encarregado.
 
 ## Aprendendo o Laravel
 
