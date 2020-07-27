@@ -7,9 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## Sobre o Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+O Laravel é uma estrutura de aplicativos da web com sintaxe expressiva e elegante. Acreditamos que o desenvolvimento deve ser uma experiência criativa e agradável para ser realmente gratificante. O Laravel tenta aliviar a dor do desenvolvimento, facilitando tarefas comuns usadas na maioria dos projetos da web, como:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
@@ -19,22 +19,22 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+O Laravel é acessível, mas poderoso, fornecendo as ferramentas necessárias para aplicativos grandes e robustos. Uma excelente combinação de simplicidade, elegância e inovação fornece as ferramentas necessárias para criar qualquer aplicativo com o qual você é encarregado.
 
-## Learning Laravel
+## Aprendendo o Laravel
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+O Laravel possui a biblioteca de tutoriais em vídeo e documentação mais extensa e completa de qualquer estrutura de aplicativos da web moderna. A [Documentação do Laravel](https://laravel.com/docs) é completa, e facilita o aprendizado do framework
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+Se você não estiver disposto a ler, o [Laracasts](https://laracasts.com) contém mais de 900 tutoriais em vídeo sobre diversos tópicos, incluindo Laravel, PHP moderno, testes de unidade, JavaScript e muito mais. Aumente o nível de habilidade de você e de toda a sua equipe, explorando nossa abrangente biblioteca de vídeos
 
-## Contributing
+## Contribuindo
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Obrigado por considerar contribuir com o framework Laravel! O guia de contribuição pode ser encontrado na [Documentação do Laravel](http://laravel.com/docs/contributions).
 
-## Security Vulnerabilities
+## Vulnerabilidades de segurança
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+Se você descobrir uma vulnerabilidade de segurança no Laravel, envie um email para Taylor Otwell em taylor@laravel.com. Todas as vulnerabilidades de segurança serão prontamente abordadas.
 
-## License
+## Licença
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+A estrutura do Laravel é um software de código aberto licenciado sob [Licença MIT](http://opensource.org/licenses/MIT).
