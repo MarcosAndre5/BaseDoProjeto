@@ -11,13 +11,13 @@
 
 O Laravel é uma estrutura de aplicativos da web com sintaxe expressiva e elegante. Acreditamos que o desenvolvimento deve ser uma experiência criativa, agradável e realmente gratificante. O Laravel tenta aliviar a dor do desenvolvimento, facilitando tarefas comuns usadas na maioria dos projetos da web, como:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- [Mecanismo de roteamento simmples e rápido](https://laravel.com/docs/routing).
+- [Recipiente de injeção de dependência poderoso](https://laravel.com/docs/container).
+- Vários back-ends para armazenamento de [sessão](https://laravel.com/docs/session) e [cache](https://laravel.com/docs/cache).
+- [Banco de Dados ORM] expressivo e intuitivo(https://laravel.com/docs/eloquent).
+- [Migração de esquema] independente de Banco de Dados(https://laravel.com/docs/migrations).
+- [Processamento de trabalho em segundo plano robusto](https://laravel.com/docs/queues).
+- [Transmissão de eventos em tempo real](https://laravel.com/docs/broadcasting).
 
 O Laravel é acessível, mas poderoso, fornecendo as ferramentas necessárias para aplicativos grandes e robustos. Uma excelente combinação de simplicidade, elegância e inovação fornecendo as ferramentas necessárias para criar qualquer aplicativo com o qual você é encarregado.
 
