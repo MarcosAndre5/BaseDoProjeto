@@ -23,9 +23,9 @@ O Laravel é acessível, mas poderoso, fornecendo as ferramentas necessárias pa
 
 ## Aprendendo o Laravel
 
-O Laravel possui a biblioteca de tutoriais em vídeo e documentação mais extensa e completa de qualquer estrutura de aplicativos da web moderna. A [Documentação do Laravel](https://laravel.com/docs) é completa, e facilita o aprendizado do framework
+O Laravel possui a biblioteca de tutoriais em vídeo e documentação extensa e completa de qualquer estrutura de aplicativos da web moderna. A [Documentação do Laravel](https://laravel.com/docs) é completa, e facilita o aprendizado do framework
 
-Se você não estiver disposto a ler, o [Laracasts](https://laracasts.com) contém mais de 900 tutoriais em vídeo sobre diversos tópicos, incluindo Laravel, PHP moderno, testes de unidade, JavaScript e muito mais. Aumente o nível de habilidade de você e de toda a sua equipe, explorando nossa abrangente biblioteca de vídeos
+Se você não estiver disposto a ler, o [Laracasts](https://laracasts.com) contém mais de 900 tutoriais em vídeo sobre diversos tópicos, incluindo Laravel, PHP moderno, testes de unidade, JavaScript e muito mais. Aumente o seu nível de habilidade e de toda a sua equipe, explorando nossa abrangente biblioteca de vídeos
 
 ## Contribuindo
 
